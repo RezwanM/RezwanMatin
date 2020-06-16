@@ -1,0 +1,138 @@
+body{
+	background-color: #FFF;
+	font-family: Calibri, Arial, sans-serif; 
+}
+
+a{
+	text-decoration: none;
+}
+
+#container{
+	background-color: #FFF;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#nav{
+	padding-bottom: 30px;
+}
+
+#nav a{
+	width: 1000px;
+	color: #FFF;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#home{
+	background-color: #1E90FF;
+	float: left;
+	width: 250px;
+	font-size: large;
+}
+
+#music{
+	background-color: #696969;
+	float: left;
+	width: 250px;
+	font-size: large;
+}
+
+#illustrations{
+	background-color: #696969;
+	float: left;
+	width: 250px;
+	font-size: large;
+}
+
+#contact{
+	background-color: #696969;
+	float: left;
+	width: 250px;
+	font-size: large;
+}
+
+#header{
+	background-color: #FFF;
+	color: #000;
+	clear: both;
+}
+
+#content{
+	padding: 10px;
+}
+
+#main{
+	width: 600px;
+	float: right;
+	padding-bottom: 30px;
+}
+
+#images{
+	width: 280px;
+	float: left;
+}
+
+#images img{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	border-radius: 8px;
+}
+
+#images p{
+    text-align: center;
+	font-size: small;
+}
+
+#images .labels{
+	color:#696969;
+}
+
+#headshot p{
+  padding-bottom: 70px;
+}
+
+#txst img{
+  padding-bottom: 110px;
+}
+
+#sust img{
+  padding-bottom: 80px;
+}
+
+#programming img{
+  padding-bottom: 600px;
+}
+
+#environments img{
+  padding-bottom: 920px;
+}
+
+#dailystar p{
+  padding-bottom: 30px;
+}
+
+#txst2 img{
+  padding-bottom: 50px;
+}
+
+#ghisc img{
+  padding-bottom: 90px;
+}
+
+#ijett img{
+  padding-bottom: 90px;
+}
+
+#tests img{
+  padding-bottom: 250px;
+}
+
+#footer{
+	clear: both;
+	background-color: #696969;
+	color: #FFF;
+	text-align: right;
+}
