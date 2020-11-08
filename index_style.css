@@ -134,6 +134,10 @@ a{
   padding-bottom: 250px;
 }
 
+#lidar img{
+  padding-bottom: 250px;
+}
+
 #footer{
 	clear: both;
 	background-color: #696969;
