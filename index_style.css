@@ -107,15 +107,19 @@ a{
 }
 
 #environments img{
-  padding-bottom: 920px;
+  padding-bottom: 950px;
 }
 
 #txst2 img{
-  padding-bottom: 50px;
+  padding-bottom: 100px;
 }
 
 #affectiva img{
   padding-bottom: 210px;
+}
+
+#simio p{
+  padding-bottom: 700px;
 }
 
 #lidar p{
