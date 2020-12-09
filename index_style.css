@@ -110,20 +110,16 @@ a{
   padding-bottom: 920px;
 }
 
-#ietc img{
-  padding-bottom: 50px;
-}
-
-#dailystar p{
-  padding-bottom: 30px;
-}
-
 #txst2 img{
   padding-bottom: 50px;
 }
 
 #affectiva img{
   padding-bottom: 210px;
+}
+
+#lidar p{
+  padding-bottom: 700px;
 }
 
 #ieee img{
@@ -134,13 +130,18 @@ a{
   padding-bottom: 50px;
 }
 
+#ietc img{
+  padding-bottom: 50px;
+}
+
+#dailystar p{
+  padding-bottom: 30px;
+}
+
 #tests img{
   padding-bottom: 300px;
 }
 
-#lidar p{
-  padding-bottom: 700px;
-}
 
 #footer{
 	clear: both;
