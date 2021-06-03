@@ -28,28 +28,14 @@ a{
 #home{
 	background-color: #1E90FF;
 	float: left;
-	width: 250px;
-	font-size: large;
-}
-
-#music{
-	background-color: #696969;
-	float: left;
-	width: 250px;
-	font-size: large;
-}
-
-#illustrations{
-	background-color: #696969;
-	float: left;
-	width: 250px;
+	width: 500px;
 	font-size: large;
 }
 
 #contact{
 	background-color: #696969;
 	float: left;
-	width: 250px;
+	width: 500px;
 	font-size: large;
 }
 
