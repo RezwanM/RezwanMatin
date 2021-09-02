@@ -97,6 +97,10 @@ a{
 }
 
 #intel img{
+  padding-bottom: 10px;
+}
+
+#mitmedialab img{
   padding-bottom: 20px;
 }
 
