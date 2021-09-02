@@ -77,7 +77,7 @@ a{
 }
 
 #headshot p{
-  padding-bottom: 70px;
+  padding-bottom: 50px;
 }
 
 #txst img{
@@ -94,6 +94,10 @@ a{
 
 #environments img{
   padding-bottom: 600px;
+}
+
+#intel img{
+  padding-bottom: 20px;
 }
 
 #surestart img{
