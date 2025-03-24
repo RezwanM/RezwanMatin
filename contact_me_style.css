@@ -25,15 +25,64 @@ a{
 	margin-right: auto;
 }
 
-#contact{
-	background-color: #1E90FF;
+#about_me{
+	background-color: #696969;
 	float: left;
 	width: 500px;
 	font-size: large;
 }
 
-#home{
+#experience{
 	background-color: #696969;
+	float: left;
+	width: 500px;
+	font-size: large;
+}
+
+#skills{
+	background-color: #696969;
+	float: left;
+	width: 500px;
+	font-size: large;
+}
+
+#projects{
+	background-color: #696969;
+	float: left;
+	width: 500px;
+	font-size: large;
+}
+
+#education{
+	background-color: #696969;
+	float: left;
+	width: 500px;
+	font-size: large;
+}
+
+#publications{
+	background-color: #696969;
+	float: left;
+	width: 500px;
+	font-size: large;
+}
+
+#awards_and_honors{
+	background-color: #696969;
+	float: left;
+	width: 500px;
+	font-size: large;
+}
+
+#test_scores{
+	background-color: #696969;
+	float: left;
+	width: 500px;
+	font-size: large;
+}
+
+#contact_me{
+	background-color: #1E90FF;
 	float: left;
 	width: 500px;
 	font-size: large;

@@ -1,0 +1,141 @@
+body{
+	background-color: #FFF;
+	font-family: Calibri, Arial, sans-serif; 
+}
+
+a{
+	text-decoration: none;
+}
+
+#container{
+	background-color: #FFF;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#nav{
+	padding-bottom: 30px;
+}
+
+#nav a{
+	width: 1000px;
+	color: #FFF;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#about_me{
+	background-color: #696969;
+	float: left;
+	width: 500px;
+	font-size: large;
+}
+
+#experience{
+	background-color: #696969;
+	float: left;
+	width: 500px;
+	font-size: large;
+}
+
+#skills{
+	background-color: #696969;
+	float: left;
+	width: 500px;
+	font-size: large;
+}
+
+#projects{
+	background-color: #696969;
+	float: left;
+	width: 500px;
+	font-size: large;
+}
+
+#education{
+	background-color: #696969;
+	float: left;
+	width: 500px;
+	font-size: large;
+}
+
+#publications{
+	background-color: #1E90FF;
+	float: left;
+	width: 500px;
+	font-size: large;
+}
+
+#awards_and_honors{
+	background-color: #696969;
+	float: left;
+	width: 500px;
+	font-size: large;
+}
+
+#test_scores{
+	background-color: #696969;
+	float: left;
+	width: 500px;
+	font-size: large;
+}
+
+#contact_me{
+	background-color: #696969;
+	float: left;
+	width: 500px;
+	font-size: large;
+}
+
+#header{
+	background-color: #FFF;
+	color: #000;
+	clear: both;
+}
+
+#content{
+	padding: 10px;
+}
+
+#main{
+	width: 600px;
+	float: right;
+	padding-bottom: 30px;
+}
+
+#images{
+	width: 280px;
+	float: left;
+}
+
+#images img{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+#images p{
+    text-align: center;
+	font-size: small;
+}
+
+#images .labels{
+	color:#696969;
+}
+
+#ieee img{
+  padding-bottom: 50px;
+}
+
+#ijett img{
+  padding-bottom: 160px;
+}
+
+
+#footer{
+	clear: both;
+	background-color: #696969;
+	color: #FFF;
+	text-align: right;
+}

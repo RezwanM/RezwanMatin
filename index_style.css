@@ -25,14 +25,63 @@ a{
 	margin-right: auto;
 }
 
-#home{
+#about_me{
 	background-color: #1E90FF;
 	float: left;
 	width: 500px;
 	font-size: large;
 }
 
-#contact{
+#experience{
+	background-color: #696969;
+	float: left;
+	width: 500px;
+	font-size: large;
+}
+
+#skills{
+	background-color: #696969;
+	float: left;
+	width: 500px;
+	font-size: large;
+}
+
+#projects{
+	background-color: #696969;
+	float: left;
+	width: 500px;
+	font-size: large;
+}
+
+#education{
+	background-color: #696969;
+	float: left;
+	width: 500px;
+	font-size: large;
+}
+
+#publications{
+	background-color: #696969;
+	float: left;
+	width: 500px;
+	font-size: large;
+}
+
+#awards_and_honors{
+	background-color: #696969;
+	float: left;
+	width: 500px;
+	font-size: large;
+}
+
+#test_scores{
+	background-color: #696969;
+	float: left;
+	width: 500px;
+	font-size: large;
+}
+
+#contact_me{
 	background-color: #696969;
 	float: left;
 	width: 500px;
@@ -77,82 +126,6 @@ a{
 
 #headshot p{
   padding-bottom: 50px;
-}
-
-#txst img{
-  padding-bottom: 110px;
-}
-
-#sust img{
-  padding-bottom: 80px;
-}
-
-#programming img{
-  padding-bottom: 435px;
-}
-
-#environments img{
-  padding-bottom: 580px;
-}
-
-#intel img{
-  padding-bottom: 100px;
-}
-
-#mitmedialab img{
-  padding-bottom: 100px;
-}
-
-#surestart img{
-  padding-bottom: 100px;
-}
-
-#txst2 img{
-  padding-bottom: 100px;
-}
-
-#affectiva img{
-  padding-bottom: 320px;
-}
-
-#simio p{
-  padding-bottom: 50px;
-}
-
-#lidar p{
-  padding-bottom: 500px;
-}
-
-#ieee img{
-  padding-bottom: 50px;
-}
-
-#ijett img{
-  padding-bottom: 160px;
-}
-
-#aiiot img{
-  padding-bottom: 50px;
-}
-
-#ietc img{
-  padding-bottom: 50px;
-}
-
-#edx img{
-  padding-bottom: 20px;
-}
-
-#coursera img{
-  padding-bottom: 100px;
-}
-
-#dailystar p{
-  padding-bottom: 30px;
-}
-
-#tests img{
-  padding-bottom: 90px;
 }
 
 
