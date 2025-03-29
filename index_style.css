@@ -103,14 +103,12 @@ a{
 #text{
 	width: 45%;
 	float: right;
-	margin: 10px;
 	padding-bottom: 30px;
 }
 
 #images{
 	width: 45%;
 	float: left;
-	margin: 10px;
 }
 
 #images img{
