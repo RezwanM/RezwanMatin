@@ -9,7 +9,7 @@ a{
 
 #container{
 	background-color: #FFF;
-	width: 1000px;
+	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -19,7 +19,7 @@ a{
 }
 
 #nav a{
-	width: 1000px;
+	width: 100%;
 	color: #FFF;
 	margin-left: auto;
 	margin-right: auto;
@@ -28,63 +28,63 @@ a{
 #about_me{
 	background-color: #696969;
 	float: left;
-	width: 500px;
+	width: 50%;
 	font-size: large;
 }
 
 #experience{
 	background-color: #696969;
 	float: left;
-	width: 500px;
+	width: 50%;
 	font-size: large;
 }
 
 #skills{
 	background-color: #696969;
 	float: left;
-	width: 500px;
+	width: 50%;
 	font-size: large;
 }
 
 #projects{
 	background-color: #1E90FF;
 	float: left;
-	width: 500px;
+	width: 50%;
 	font-size: large;
 }
 
 #education{
 	background-color: #696969;
 	float: left;
-	width: 500px;
+	width: 50%;
 	font-size: large;
 }
 
 #publications{
 	background-color: #696969;
 	float: left;
-	width: 500px;
+	width: 50%;
 	font-size: large;
 }
 
 #awards_and_honors{
 	background-color: #696969;
 	float: left;
-	width: 500px;
+	width: 50%;
 	font-size: large;
 }
 
 #test_scores{
 	background-color: #696969;
 	float: left;
-	width: 500px;
+	width: 50%;
 	font-size: large;
 }
 
 #contact_me{
 	background-color: #696969;
 	float: left;
-	width: 500px;
+	width: 100%;
 	font-size: large;
 }
 
@@ -95,17 +95,19 @@ a{
 }
 
 #content{
+	width: 90%;
 	padding: 10px;
+	float: center;
 }
 
 #text{
-	width: 600px;
+	width: 45%;
 	float: right;
 	padding-bottom: 30px;
 }
 
 #images{
-	width: 280px;
+	width: 45%;
 	float: left;
 }
 
