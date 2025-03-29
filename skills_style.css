@@ -124,6 +124,32 @@ a{
 	color:#696969;
 }
 
+progress{
+	width:120px;
+	height:10px;
+	-webkit-mask-image: linear-gradient(90deg, #000 70%, #0000 0%);
+	-webkit-mask-position: 0;
+	-webkit-mask-size: 20%;
+	background-color: rgb(211, 211, 211);
+	background-image: linear-gradient(#000 0 0);
+	background-position: 0;
+	background-size: 0%;
+	background-repeat: no-repeat;
+}
+
+progress::-webkit-progress-value {
+            #background-color: #90ee90;
+            background-color: #1E90FF;
+        }
+        progress::-moz-progress-bar {
+            #background-color: #90ee90;
+            background-color: #1E90FF;
+        }
+        progress {
+            #color: #90ee90; /* For browsers that support this property */
+            color: #1E90FF; /* For browsers that support this property */
+        }
+
 #programming img{
   padding-bottom: 435px;
 }
