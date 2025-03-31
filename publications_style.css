@@ -7,18 +7,18 @@ a{
 	text-decoration: none;
 }
 
-#container{
+.container{
 	background-color: #FFF;
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-#nav{
+.nav{
 	padding-bottom: 100px;
 }
 
-#nav a{
+.nav a{
 	width: 100%;
 	color: #FFF;
 	margin-left: auto;
@@ -94,36 +94,27 @@ a{
 	clear: both;
 }
 
-#content{
+.content{
 	width: 90%;
 	padding: 10px;
 	float: center;
 }
 
-#text{
+.text{
 	width: 45%;
 	float: right;
 	padding-bottom: 30px;
 }
 
-#images{
+.images{
 	width: 45%;
 	float: left;
 }
 
-#images img{
+.images img{
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
-}
-
-#images p{
-	text-align: center;
-	font-size: small;
-}
-
-#images .labels{
-	color:#696969;
 }
 
 #ieee img{
