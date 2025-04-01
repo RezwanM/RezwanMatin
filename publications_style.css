@@ -98,7 +98,7 @@ a {
   background-color: #FFF;
   color: #000;
   clear: both;
-  grid-area: footer;
+  grid-area: header;
 }
 
 .text {
