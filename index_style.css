@@ -138,7 +138,7 @@ a {
 	   text-align: center;}
   .images {grid-area: 3 / span 2;}
   .text {grid-area: 4 / span 2;
-         text-align: center;}
+         text-align: justify;}
   #footer {grid-area: 5 / span 2;
            text-align: center;}
 }
