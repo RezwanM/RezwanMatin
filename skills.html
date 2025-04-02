@@ -69,7 +69,7 @@
 	  <p>Working with Linux, I have gotten used to using various different command-line utilities. I've used ssh to remotely log into servers and copied ssh keys for passwordless logins in order to run MPI workloads. I've used rsync and scp for copying large files between nodes. I've used grep and find to look for files/directories and their content. I've used top and htop for monitoring running processes and terminate them if needed. I've used df and du to check disk usage. And I've also used tmux for creating concurrent, persistent sessions and dmesg for checking kernel logs - both for debugging purposes.</p>
 	  <h3>Git</h3>
 	  <progress value="80" max="100"></progress>
-	  <p>In my last job I regularly collaborated with my colleagues who would work on different parts of the same project. We relied heavily on Git for version control. We submitted PRs on GitHub which would then be reviewed by our peers and our tech lead.</p>
+	  <p>I regularly collaborated with my colleagues at Intel. We would often work on different parts of the same project. We relied heavily on Git for version control. Even for individual projects, we used Git to frequently update our code and documentation. We submitted PRs on GitHub which would then be reviewed by our peers and our tech lead.</p>
 	  <h3>Docker</h3>
 	  <progress value="80" max="100"></progress>
 	  <p>I am very familiar with Docker since I used to always test my code (tools, applications, etc.) inside Docker containers before creating PRs. I am also familiar with Containerd since my previous team used Containerd images to run longer tests through Kubernetes in Jenkins and I often had to debug the container images if there were any errors during execution.</p>
@@ -78,10 +78,13 @@
 	  <p>Even though I haven't personally set up a full-blown Kubernetes cluster, I did create a one-node cluster using minikube and familiarized myself with concepts like pods and manifests, and learned some kubectl commands along the way. As a content and tool developer, I used to run quick tests in my development node within Docker containers just as sanity checks. Once a test was ready to be scaled out for a longer execution, we would run them through Jenkins. We updated the test parameters in YAML config files and Jenkins would then pick them up and run Containerd containers through Kubernetes across multiple machines in the execution cluster. After the tests ended, the results would appear automatically in Elasticsearch through pre-built Kibana dashboards which we used to review the stdout/stderr and kernel logs.</p>
 	  <h3>Software Toolchain</h3>
 	  <progress value="70" max="100"></progress>
-	  <p>In my last company, I had to incorporate open-source as well as internal applications for our Python-based validation tool. I obtained the source code for the open-source applications and used different compilers such as GCC/G++ and ICX/ICPX along with command-line tools such as make and cmake to create binaries to be used with our tool. We had internal versions of these compilers which supported instruction sets for our company's unreleased products.</p>
+	  <p>While working at Intel, I had to incorporate open-source as well as internal applications for our Python-based validation tool. I obtained the source code for the open-source applications and used different compilers such as GCC/G++ and ICX/ICPX along with command-line tools such as make and cmake to create binaries to be used with our tool. We had internal versions of these compilers which supported instruction sets for our company's unreleased products.</p>
 	  <h3>Vim</h3>
 	  <progress value="80" max="100"></progress>
-	  <p>I picked up Vim not because of necessity, but because of curiosity. Growing up, I used to watch movies where the hacker character would solely rely on his keyboard in order to break into a mainframe or something along those lines. I used to find it fascinating. I heard about vi and looked up tutorials online. It took time to get used to the different modes and commands, but once I got used to it, I could see why it was so beloved in the developer community. And even though I'm not in the "mouse is for noobs" camp, I can see how it can reduce productivity when writing code.</p>
+	  <p>I picked up Vim not because of necessity, but because of curiosity. Growing up, I used to watch movies where the hacker character would solely rely on his keyboard in order to break into a mainframe or something along those lines. I used to find it fascinating. I heard about vi and looked up tutorials online. It took some time to get used to the different modes and commands. But once I got up to speed, I could see why it was so beloved in the developer community.</p>
+	  <h3>ElasticSearch</h3>
+	  <progress value="70" max="100"></progress>
+	  <p>In my previous role at Intel, our execution team had set up Kibana dashboards which developers like me would look into in order to debug regression tests. We used the different filters available in Kibana for pinpointing the exact moment test failures occured and extract the error messages (standard output and error, as well as serial logs) for resolving the issues.</p>
 	  <h3>C/C++</h3>
 	  <progress value="50" max="100"></progress>
 	  <p>C was the first programming language I learned. I took the "Structured Computer Programming" course during my first semester at Shahjalal University. In my second year, I used C in 'Numerical Analysis'. After that, I have frequently coded in C. I recently picked up C++ when taking the course "(CAE) Simulations on HPC Systems" at Texas State.</p>
@@ -111,12 +114,12 @@
 	  <p>COMSOL was the primary simulation software I used for my undergraduate thesis. My friends and I modeled several piezoresistive pressure sensor structures in COMSOL.</p>
 	  <h3>Arduino Uno</h3>
 	  <progress value="50" max="100"></progress>
-	  <p>I have worked on various projects using Arduino. The fact that Arduino Sketches are made using C made it an easy learning experince for me.</p>
+	  <p>I have worked on various projects using Arduino. The fact that Arduino Sketches are made using C made it an easy learning experince for me.</p><br>
 	  <hr />
 
 	<h2>Certifications</h2>
 	  <h3>edX Verified Certification for A System View of Communications: From Signals to Packets (Part 1)</h3>
-	  <p><i>The Hong Kong University of Science and Technology (HKUSTx)</i>, January 2021. <br> (To view the certificate, click <a href="https://courses.edx.org/certificates/2413687dbc9f41ffbfe3ce9abe7d6068">here</a>.)</p>
+	  <p><i>The Hong Kong University of Science and Technology (HKUSTx)</i>, January 2021. <br> (To view the certificate, click <a href="https://courses.edx.org/certificates/2413687dbc9f41ffbfe3ce9abe7d6068">here</a>.)</p><br>
 	  <h3>Coursera Verified Certification for Wireless Communications for Everybody</h3>
 	  <p><i>Yonsei University</i>, November 2020. <br> (To view the certificate, click <a href="https://www.coursera.org/account/accomplishments/verify/ZA7AMWYPQ3MX">here</a>.)</p>
       </div>
