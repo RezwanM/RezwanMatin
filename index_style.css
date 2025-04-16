@@ -105,6 +105,11 @@ a {
   grid-area: text;
 }
 
+.text audio {
+  width: 100px;
+  height: 25px;
+}
+
 .images {
   grid-area: images;
 }
