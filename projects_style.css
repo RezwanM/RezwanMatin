@@ -7,6 +7,10 @@ a {
   text-decoration: none;
 }
 
+h2 a:link, h3 a:link {
+  color: black;
+}
+
 .container {
   background-color: #FFF;
   display: grid;
