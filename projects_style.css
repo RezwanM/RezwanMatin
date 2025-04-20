@@ -7,7 +7,7 @@ a {
   text-decoration: none;
 }
 
-h2 a:link, h3 a:link {
+h2 a:link, h2 a:visited, h3 a:link, h3 a:visited {
   color: black;
 }
 
