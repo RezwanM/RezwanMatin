@@ -141,6 +141,10 @@ li {
   text-decoration: underline;
 }
 
+.text #back-to-top {
+  color: #696969;
+}
+
 .images {
   grid-area: images;
 }
