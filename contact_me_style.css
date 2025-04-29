@@ -149,7 +149,6 @@ h2 a:link, h2 a:visited {
 .test-scores {
   background-color: #696969;
   color: white;
-  #border: 2px solid #1E90FF;
 }
 
 .test-scores:hover {
@@ -164,7 +163,6 @@ h2 a:link, h2 a:visited {
 .back-to-top {
   background-color: white;
   color: black;
-  #border: 2px solid #1E90FF;
 }
 
 .back-to-top:hover {
@@ -173,13 +171,13 @@ h2 a:link, h2 a:visited {
 }
 
 .back-to-top:active {
+  background-color: white;
   transform: translateY(4px);
 }
 
 .about-me {
   background-color: #696969;
   color: white;
-  #border: 2px solid #1E90FF;
 }
 
 .about-me:hover {
