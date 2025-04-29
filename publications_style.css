@@ -199,8 +199,12 @@ li {
 }
 
 .back-to-top:active {
-  background-color: white;
   transform: translateY(4px);
+}
+
+.back-to-top:visited {
+  background-color: white;
+  color: black;
 }
 
 .awards-and-honors {
