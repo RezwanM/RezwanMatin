@@ -169,6 +169,8 @@ h2 a:link, h2 a:visited {
 }
 
 .back-to-top:active {
+  background-color: white;
+  color: black;
   transform: translateY(4px);
 }
 
