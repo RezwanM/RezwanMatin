@@ -24,6 +24,7 @@ h2 a:link, h2 a:visited, h3 a:link, h3 a:visited {
     'toc toc'
     'images text'
     'images text'
+    'images buttons'
     'footer footer';
   gap: 50px;
   padding: 10px;
@@ -174,17 +175,14 @@ li {
   color: #696969;
 }
 
-.button {
-  border: none;
-  color: white;
-  padding: 16px 32px;
-  text-align: center;
+.buttons {
+  grid-area: buttons;
+}
+
+.buttons a:link, .buttons a:visited {
   text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  transition-duration: 0.4s;
-  cursor: pointer;
+  background-color: white;
+  color: black;
 }
 
 .projects {
@@ -213,11 +211,6 @@ li {
 
 .back-to-top:active {
   transform: translateY(4px);
-}
-
-.back-to-top:visited {
-  background-color: white;
-  color: black;
 }
 
 .publications {
@@ -252,6 +245,8 @@ li {
   .images {grid-area: 4 / span 2;}
   .text {grid-area: 5 / span 2;
          text-align: center;}
-  #footer {grid-area: 6 / span 2;
+  .buttons {grid-area: 6 / span 2;
+         text-align: center;}
+  #footer {grid-area: 7 / span 2;
            text-align: center;}
 }
