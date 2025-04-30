@@ -200,14 +200,7 @@ li {
   color: black;
 }
 
-.back-to-top:hover {
-  background-color: #1E90FF;
-  color: white;
-}
-
 .back-to-top:active {
-  background-color: white;
-  color: black;
   transform: translateY(4px);
 }
 
