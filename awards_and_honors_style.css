@@ -27,6 +27,8 @@ h2 a:link, h2 a:visited, h3 a:link, h3 a:visited {
     'images buttons'
     'footer footer';
   gap: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
   padding: 10px;
 }
 
@@ -159,16 +161,17 @@ li {
   margin-left: auto;
   margin-right: auto;
   display: block;
+  padding-top: 100px;
 }
 
 .images p {
   text-align: center;
   font-size: small;
-  padding-bottom: 50px;
 }
 
 .images .labels {
   color: #696969;
+  padding-bottom: 70px;
 }
 
 .buttons {
@@ -227,6 +230,8 @@ li {
 }
 
 @media only screen and (max-width: 1080px) {
+  .container {margin-left: 0px;
+	      margin-right: 0px;}
   .nav {grid-area: 1 / span 2;}
   #header {grid-area: 2 / span 2;
 	   text-align: center;}
