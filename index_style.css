@@ -26,6 +26,8 @@ h2 a:link, h2 a:visited {
     'images buttons'
     'footer footer';
   gap: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
   padding: 10px;
 }
 
