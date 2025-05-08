@@ -162,6 +162,16 @@ li {
   padding-bottom: 50px;
 }
 
+.images p {
+  text-align: center;
+  font-size: small;
+  padding-bottom: 50px;
+}
+
+.images .labels {
+  color: #696969;
+}
+
 .buttons {
   grid-area: buttons;
 }
