@@ -153,8 +153,14 @@ li {
   text-decoration: underline;
 }
 
+pre {
+  color: white;
+  background-color: #282C34;
+}
+
 .images {
   grid-area: images;
+  padding-top: 1700px;
 }
 
 .images img {
