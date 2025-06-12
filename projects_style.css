@@ -160,7 +160,7 @@ pre {
 
 .images {
   grid-area: images;
-  padding-top: 1700px;
+  padding-top: 100px;
 }
 
 .images img {
