@@ -140,46 +140,25 @@ h2 a:link, h2 a:visited {
   grid-area: buttons;
 }
 
-.buttons a:link, .buttons a:visited {
+.buttons button {
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: medium;
+  text-align: center;
   text-decoration: none;
-  background-color: white;
-  color: black;
-}
-
-.test-scores {
+  outline: none;
+  color: #fff;
   background-color: #696969;
-  color: white;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
 }
 
-.test-scores:hover {
+.buttons button:hover {background-color: #1E90FF}
+
+.buttons button:active {
   background-color: #1E90FF;
-  color: white;
-}
-
-.test-scores:active {
-  transform: translateY(4px);
-}
-
-.back-to-top {
-  background-color: white;
-  color: black;
-}
-
-.back-to-top:active {
-  transform: translateY(4px);
-}
-
-.about-me {
-  background-color: #696969;
-  color: white;
-}
-
-.about-me:hover {
-  background-color: #1E90FF;
-  color: white;
-}
-
-.about-me:active {
+  box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
 

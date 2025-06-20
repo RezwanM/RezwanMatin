@@ -168,46 +168,25 @@ li {
   grid-area: buttons;
 }
 
-.buttons a:link, .buttons a:visited {
+.buttons button {
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: medium;
+  text-align: center;
   text-decoration: none;
-  background-color: white;
-  color: black;
-}
-
-.education {
+  outline: none;
+  color: #fff;
   background-color: #696969;
-  color: white;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
 }
 
-.education:hover {
+.buttons button:hover {background-color: #1E90FF}
+
+.buttons button:active {
   background-color: #1E90FF;
-  color: white;
-}
-
-.education:active {
-  transform: translateY(4px);
-}
-
-.back-to-top {
-  background-color: white;
-  color: black;
-}
-
-.back-to-top:active {
-  transform: translateY(4px);
-}
-
-.awards-and-honors {
-  background-color: #696969;
-  color: white;
-}
-
-.awards-and-honors:hover {
-  background-color: #1E90FF;
-  color: white;
-}
-
-.awards-and-honors:active {
+  box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
 
