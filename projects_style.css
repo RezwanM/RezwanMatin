@@ -256,5 +256,6 @@ pre {
   .buttons {grid-area: 6 / span 2;
          text-align: center;}
   #footer {grid-area: 7 / span 2;
+  	   padding-right: 0px;
            text-align: center;}
 }

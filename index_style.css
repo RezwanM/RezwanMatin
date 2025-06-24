@@ -221,5 +221,6 @@ h2 a:link, h2 a:visited {
   .buttons {grid-area: 5 / span 2;
          text-align: center;}
   #footer {grid-area: 6 / span 2;
+  	   padding-right: 0px;
            text-align: center;}
 }
