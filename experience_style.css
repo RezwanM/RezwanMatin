@@ -53,6 +53,9 @@ h2 a:link, h2 a:visited, h3 a:link, h3 a:visited {
   float: left;
   width: 50%;
   font-size: large;
+  text-align: left;
+  text-indent: 20px;
+  border-top-left-radius: 15px;
 }
 
 #experience {
@@ -60,6 +63,10 @@ h2 a:link, h2 a:visited, h3 a:link, h3 a:visited {
   float: left;
   width: 50%;
   font-size: large;
+  text-align: left;
+  border-top-right-radius: 15px;
+  text-align: ;
+  text-indent: 20px;
 }
 
 #skills {
@@ -67,6 +74,8 @@ h2 a:link, h2 a:visited, h3 a:link, h3 a:visited {
   float: left;
   width: 50%;
   font-size: large;
+  text-align: left;
+  text-indent: 20px;
 }
 
 #projects {
@@ -74,6 +83,8 @@ h2 a:link, h2 a:visited, h3 a:link, h3 a:visited {
   float: left;
   width: 50%;
   font-size: large;
+  text-align: left;
+  text-indent: 20px;
 }
 
 #education {
@@ -81,6 +92,8 @@ h2 a:link, h2 a:visited, h3 a:link, h3 a:visited {
   float: left;
   width: 50%;
   font-size: large;
+  text-align: left;
+  text-indent: 20px;
 }
 
 #publications {
@@ -88,6 +101,8 @@ h2 a:link, h2 a:visited, h3 a:link, h3 a:visited {
   float: left;
   width: 50%;
   font-size: large;
+  text-align: left;
+  text-indent: 20px;
 }
 
 #awards_and_honors {
@@ -95,6 +110,8 @@ h2 a:link, h2 a:visited, h3 a:link, h3 a:visited {
   float: left;
   width: 50%;
   font-size: large;
+  text-align: left;
+  text-indent: 20px;
 }
 
 #test_scores {
@@ -102,6 +119,8 @@ h2 a:link, h2 a:visited, h3 a:link, h3 a:visited {
   float: left;
   width: 50%;
   font-size: large;
+  text-align: left;
+  text-indent: 20px;
 }
 
 #contact_me {
@@ -109,6 +128,10 @@ h2 a:link, h2 a:visited, h3 a:link, h3 a:visited {
   float: left;
   width: 100%;
   font-size: large;
+  text-align: left;
+  text-indent: 20px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 #header {
@@ -196,6 +219,8 @@ li {
   background-color: #696969;
   color: #FFF;
   text-align: right;
+  padding-right: 20px;
+  border-radius: 15px;
   grid-area: footer;
 }
 
