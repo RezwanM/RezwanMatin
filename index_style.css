@@ -213,6 +213,7 @@ h2 a:link, h2 a:visited {
   .container {margin-left: 0px;
 	      margin-right: 0px;}
   .nav {grid-area: 1 / span 2;}
+  .nav a {font-size: medium;}
   #header {grid-area: 2 / span 2;
 	   text-align: center;}
   .images {grid-area: 3 / span 2;}
@@ -220,7 +221,9 @@ h2 a:link, h2 a:visited {
          text-align: center;}
   .buttons {grid-area: 5 / span 2;
          text-align: center;}
+  .buttons button {font-size: small;}
   #footer {grid-area: 6 / span 2;
   	   padding-right: 0px;
-           text-align: center;}
+           text-align: center;
+   	   font-size: small;}
 }

@@ -237,6 +237,7 @@ li {
   .container {margin-left: 0px;
 	      margin-right: 0px;}
   .nav {grid-area: 1 / span 2;}
+  .nav a {font-size: medium;}
   #header {grid-area: 2 / span 2;
 	   text-align: center;}
   #toc {grid-area: 3 / span 2;
@@ -247,7 +248,9 @@ li {
          text-align: center;}
   .buttons {grid-area: 6 / span 2;
          text-align: center;}
+  .buttons button {font-size: small;}
   #footer {grid-area: 7 / span 2;
   	   padding-right: 0px;
-           text-align: center;}
+           text-align: center;
+   	   font-size: small;}
 }
