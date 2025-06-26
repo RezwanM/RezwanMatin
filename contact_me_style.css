@@ -150,6 +150,7 @@ h2 a:link, h2 a:visited {
 
 .images {
   grid-area: images;
+  width: 180px;
 }
 
 .images img {
@@ -202,7 +203,10 @@ h2 a:link, h2 a:visited {
   .nav a {font-size: medium;}
   #header {grid-area: 2 / span 2;
 	   text-align: center;}
-  .images {grid-area: 3 / span 2;}
+  .images {grid-area: 3 / span 2;
+  	   margin: 0 auto;}
+  .images img {padding-top: 40px;
+  	       padding-bottom: 40px;}
   .text {grid-area: 4 / span 2;
          text-align: center;}
   .buttons {grid-area: 5 / span 2;

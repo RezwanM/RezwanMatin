@@ -178,6 +178,7 @@ li {
 
 .images {
   grid-area: images;
+  width: 180px;
 }
 
 .images img {
@@ -206,18 +207,18 @@ li {
   box-shadow: 0 9px #999;
 }
 
-.buttons button:hover {background-color: #1E90FF}
+.buttons button:hover {background-color: #1e90ff}
 
 .buttons button:active {
-  background-color: #1E90FF;
+  background-color: #1e90ff;
   box-shadow: 0 5px #666;
-  transform: translateY(4px);
+  transform: translatey(4px);
 }
 
 #footer {
   clear: both;
   background-color: #696969;
-  color: #FFF;
+  color: #fff;
   text-align: right;
   padding-right: 20px;
   border-radius: 15px;
@@ -234,7 +235,10 @@ li {
   #toc {grid-area: 3 / span 2;
 	   text-align: center;}
   #toc ul {padding-left: 0;}
-  .images {grid-area: 4 / span 2;}
+  .images {grid-area: 4 / span 2;
+  	   margin: 0 auto;}
+  .images img {padding-top: 50px;
+  	       padding-bottom: 50px;}
   .text {grid-area: 5 / span 2;
          text-align: center;}
   .text ul {padding-left: 0;}
