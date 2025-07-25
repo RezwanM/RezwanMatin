@@ -52,7 +52,7 @@
 	    <li><a href="#docker">Docker</a></li>
 	    <li><a href="#vtune">VTune</a></li>
 	    <li><a href="#kubernetes">Kubernetes</a></li>
-	    <li><a href="#software-toolchain">Software Toolchain</a></li>
+	    <li><a href="#compilation-toolchain">Compilation Toolchain</a></li>
 	    <li><a href="#vim">Vim</a></li>
 	    <li><a href="#jira">Jira</a></li>
 	    <li><a href="#elasticsearch">Elasticsearch</a></li>
@@ -201,9 +201,9 @@
 	  <progress value="70" max="100"></progress>
 	  <p>Even though I haven't personally set up a full-blown Kubernetes cluster, I did create a one-node cluster using minikube and familiarized myself with concepts like pods and manifests, and learned some kubectl commands along the way. As a content and tool developer, I used to run quick tests in my development node within Docker containers just as sanity checks. Once a test was ready to be scaled out for a longer execution, we would run them through Jenkins. We updated the test parameters in YAML config files and Jenkins would then pick them up and run Containerd containers through Kubernetes across multiple machines in the execution cluster. After the tests ended, the results would appear automatically in Elasticsearch through pre-built Kibana dashboards which we used to review the stdout/stderr and kernel logs.</p><br>
 	  </section>
-	  <section id="software-toolchain">
+	  <section id="compilation-toolchain">
 	  <h3>
-	    <a href="#software-toolchain">Software Toolchain</a>
+	    <a href="#compilation-toolchain">Compilation Toolchain</a>
 	  </h3>
 	  <progress value="70" max="100"></progress>
 	  <p>While working at Intel, I had to incorporate open-source as well as internal applications for our Python-based validation tool. I obtained the source code for the open-source applications and used different compilers such as GCC/G++ and ICX/ICPX along with command-line tools such as make and cmake to create binaries to be used with our tool. We had internal versions of these compilers which supported instruction sets for our company's unreleased products.</p><br>
