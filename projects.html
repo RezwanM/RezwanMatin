@@ -46,6 +46,8 @@
 	  <ul>
 	    <li><a href="#workload-runner">Workload-Runner</a></li>
 	    <li><a href="#is-it-even-halal">Is It Even Halal?</a></li>
+	    <li><a href="#ai-chatbot">AI Chatbot</a></li>
+	    <li><a href="#visa-appointment-checker">Visa Appointment Checker</a></li>
 	    <li><a href="#minigrep">Minigrep</a></li>
 	    <li><a href="#employee-database">Employee Database</a></li>
 	    <li><a href="#strings-to-pig-latin">Strings to Pig Latin</a></li>
@@ -128,6 +130,35 @@ Failed: 0
 	    <img src="images/is_it_even_halal_bengali.png"/>
 	    <p>The same responses as above, but in Bengali.</p>
 	  </div>
+	  </section>
+	  <section id="ai-chatbot">
+	  <h3>
+	    <a href="#ai-chatbot">AI_Chatbot</a>
+	  </h3>
+	  <p>I built an AI chatbot that can be accessed from the terminal. It uses Google Gemini's API for accessing the Gemini models. (To view the source code, click <a href="https://github.com/rezwanm/ai_chatbot" target="_blank">here</a>.)</p>
+	  <pre>
+	    <code>
+$ python3 <project_root>/main.py
+Welcome to the AI Chatbot (powered by Gemini)!
+
+Start by entering a prompt.
+(For quitting the application, type "quit".)
+(For clearing the screen, type "clear".)
+
+You: Explain how AI works in a few words
+Chatbot:
+AI learns patterns from data to make smart predictions or decisions.
+You: quit
+
+Thank you for using the AI Chatbot. Until next time!
+	    </code>
+	  </pre><br>
+	  </section>
+	  <section id="visa-appointment-checker">
+	  <h3>
+	    <a href="#visa-appointment-checker">Visa Appointment Checker</a>
+	  </h3>
+	  <p>I built a script that can continuously check for available visa appointment slots without user intervention. It uses Python and Selenium to perform the automation. As of now, the project can only look for appointment slots for the Schengen visa in the Swiss Consulate of New York City, but support for other consulates is expected to be added in the future. Once started, the application will continue to run till either an appointment slot is found or the user manually interrupts its execution. If a empty slot is found, the user is alerted immediately with a pop-up alert box. (To view the source code, click <a href="https://github.com/rezwanm/visa_appointment_checker" target="_blank">here</a>.)</p><br>
 	  </section>
 	  <section id="minigrep">
 	  <h3>
