@@ -133,12 +133,12 @@ Failed: 0
 	  </section>
 	  <section id="ai-chatbot">
 	  <h3>
-	    <a href="#ai-chatbot">AI_Chatbot</a>
+	    <a href="#ai-chatbot">AI Chatbot</a>
 	  </h3>
 	  <p>I built an AI chatbot that can be accessed from the terminal. It uses Google Gemini's API for accessing the Gemini models. (To view the source code, click <a href="https://github.com/rezwanm/ai_chatbot" target="_blank">here</a>.)</p>
 	  <pre>
 	    <code>
-$ python3 <project_root>/main.py
+$ python3 &lt;project_root&gt;/main.py
 Welcome to the AI Chatbot (powered by Gemini)!
 
 Start by entering a prompt.
@@ -164,31 +164,125 @@ Thank you for using the AI Chatbot. Until next time!
 	  <h3>
 	    <a href="#minigrep">Minigrep</a>
 	  </h3>
-	  <p>I built a simpler version of the classic Linux command-line tool <em>grep</em> in Rust. (To view the source code, click <a href="https://github.com/rezwanm/minigrep" target="_blank">here</a>.)</p><br>
+	  <p>I built a simpler version of the classic Linux command-line tool <em>grep</em> in Rust. (To view the source code, click <a href="https://github.com/rezwanm/minigrep" target="_blank">here</a>.)</p>
+	  <pre>
+	    <code>
+$ cd &lt;project_root&gt;
+$ cargo run -- to poem.txt
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.02s
+     Running `target\debug\minigrep.exe to poem.txt`
+Are you nobody, too?
+How dreary to be somebody!
+	    </code>
+	  </pre><br>
 	  </section>
 	  <section id="employee-database">
 	  <h3>
 	    <a href="#employee-database">Employee Database</a>
 	  </h3>
-	  <p>I built an application for managing a database of all employees within a company. The user can add employees to a department, fetch the list of employees belonging to a particular department, and print out the list of all employees of the company according to their departments, in alphabetical order. The project was written entirely in Rust. (To view the source code, click <a href="https://github.com/RezwanM/employee_database" target="_blank">here</a>.)</p><br>
+	  <p>I built an application for managing a database of all employees within a company. The user can add employees to a department, fetch the list of employees belonging to a particular department, and print out the list of all employees of the company according to their departments, in alphabetical order. The project was written entirely in Rust. (To view the source code, click <a href="https://github.com/RezwanM/employee_database" target="_blank">here</a>.)</p>
+	  <pre>
+	    <code>
+$ cd &lt;project_root&gt;
+$ cargo run
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.02s
+     Running `target\debug\employee_database.exe`
+Welcome to the Company Employee Database!
+Select an option:
+(1) Add an employee
+(2) Get employee names within a department
+(3) Get all employee names by department
+(4) Quit
+1
+Enter a new employee info in the format 'Add <employee_name> to <department_name>':
+e.g., Add Sally to Engineering
+Add Rezwan to Engineering
+
+
+Select an option:
+(1) Add an employee
+(2) Get employee names within a department
+(3) Get all employee names by department
+(4) Quit
+2
+Enter department name:
+Engineering
+Members of the department are:
+["Rezwan"]
+
+Select an option:
+(1) Add an employee
+(2) Get employee names within a department
+(3) Get all employee names by department
+(4) Quit
+3
+Here are the employees by department:
+Engineering:
+["Rezwan"]
+
+Select an option:
+(1) Add an employee
+(2) Get employee names within a department
+(3) Get all employee names by department
+(4) Quit
+4
+	    </code>
+	  </pre><br>
 	  </section>
 	  <section id="strings-to-pig-latin">
 	  <h3>
 	    <a href="#strings-to-pig-latin">Strings to Pig Latin</a>
 	  </h3>
-	  <p>I built an application for converting an input string consisting only of letters into <a href="https://en.wikipedia.org/wiki/Pig_Latin" target="_blank">Pig Latin</a>. The project was written entirely in Rust. (To view the source code, click <a href="https://github.com/RezwanM/strings_to_pig_latin" target="_blank">here</a>.)</p><br>
+	  <p>I built an application for converting an input string consisting only of letters into <a href="https://en.wikipedia.org/wiki/Pig_Latin" target="_blank">Pig Latin</a>. The project was written entirely in Rust. (To view the source code, click <a href="https://github.com/RezwanM/strings_to_pig_latin" target="_blank">here</a>.)</p>
+	  <pre>
+	    <code>
+$ cd &lt;project_root&gt;
+$ cargo run
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.02s
+     Running `target\debug\strings_to_pig_latin.exe`
+Convert strings to Pig Latin!
+Please enter your string (in lowercase):
+first
+Pig latin: irst-fay
+	    </code>
+	  </pre><br>
 	  </section>
 	  <section id="median-and-mode">
 	  <h3>
 	    <a href="#median-and-mode">Median and Mode</a>
 	  </h3>
-	  <p>I built an application for calculating the median and the mode of a sequence of integers. The project was written entirely in Rust. (To view the source code, click <a href="https://github.com/RezwanM/median_and_mode" target="_blank">here</a>.)</p><br>
+	  <p>I built an application for calculating the median and the mode of a sequence of integers. The project was written entirely in Rust. (To view the source code, click <a href="https://github.com/RezwanM/median_and_mode" target="_blank">here</a>.)</p>
+	  <pre>
+	    <code>
+$ cd &lt;project_root&gt;
+$ cargo run
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.02s
+     Running `target\debug\median_and_mode.exe`
+This program calculates the median and the mode of a list of integers!
+Please input the list of integers, separated by space.
+1 1 2 3 4 5
+Your median: 2.5
+Your mode(s): [1]
+	    </code>
+	  </pre><br>
 	  </section>
 	  <section id="fibonacci-number-finder">
 	  <h3>
 	    <a href="#fibonacci-number-finder">Fibonacci Number Finder</a>
 	  </h3>
-	  <p>I built a number-finding application which can be used to find the n-th number in the <a href="https://en.wikipedia.org/wiki/Fibonacci_sequence" target="_blank">Fibonacci sequence</a>. The project was written entirely in Rust. (To view the source code, click <a href="https://github.com/RezwanM/nth_fibonacci_number" target="_blank">here</a>.)</p><br>
+	  <p>I built a number-finding application which can be used to find the n-th number in the <a href="https://en.wikipedia.org/wiki/Fibonacci_sequence" target="_blank">Fibonacci sequence</a>. The project was written entirely in Rust. (To view the source code, click <a href="https://github.com/RezwanM/nth_fibonacci_number" target="_blank">here</a>.)</p>
+	  <pre>
+	    <code>
+$ cd &lt;project_root&gt;
+$ cargo run
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.02s
+     Running `target\debug\fibonacci_number.exe`
+Welcome to the nth Fibonacci number finder app!
+Enter the position of the Fibonacci number in the sequence (index starts at 0):
+17
+The Fibonacci number in position 17 is: 2584
+	    </code>
+	  </pre><br>
 	  </section>
 	  <section id="twelve-days-of-xmas">
 	  <h3>
@@ -200,7 +294,23 @@ Thank you for using the AI Chatbot. Until next time!
 	  <h3>
 	    <a href="#temperature-converter">Temperature Converter</a>
 	  </h3>
-	  <p>I built a simple temperature converter application which prompts the user to enter the input temperature unit (Celsius or Fahrenheit) followed by the temperature to be converted. The project was written entirely in Rust. (To view the source code, click <a href="https://github.com/RezwanM/temperature_converter" target="_blank">here</a>.)</p><br>
+	  <p>I built a simple temperature converter application which prompts the user to enter the input temperature unit (Celsius or Fahrenheit) followed by the temperature to be converted. The project was written entirely in Rust. (To view the source code, click <a href="https://github.com/RezwanM/temperature_converter" target="_blank">here</a>.)</p>
+	  <pre>
+	    <code>
+$ cd &lt;project_root&gt;
+$ cargo run
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.02s
+     Running `target\debug\temp_converter.exe`
+Welcome to the temperature converter app!
+Select input temperature unit (C/F), or press 'q' to quit:
+C
+Enter the temperature:
+25
+77.0 F
+Select input temperature unit (C/F), or press 'q' to quit:
+q
+	    </code>
+	  </pre><br>
 	  </section>
 	  <hr />
 	<section id="school-projects">
